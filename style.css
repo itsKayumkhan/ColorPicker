@@ -5,10 +5,9 @@
     box-sizing: border-box;
 }
 body{
-    width: 98vw;
-    height: 87vh;
-    background-color: black;
-    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
 .logo
 {
@@ -30,16 +29,19 @@ body{
 }
 
 .click{
+ 
     display: flex;
-    background: #fff;
-    width: 30%;
-    height: 29%;
+    background-color: #fff !important;
+    color: black;
+    width: 31%;
+    line-height: 2;
+    height: 44%;
     font-size: 2rem;
-    border-radius: 8px;
+    border-radius: 25px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     box-shadow: 9px 13px 8px -1px;
+    box-shadow: 9px 13px 8px -1px;
 
 }
 .head
@@ -101,11 +103,28 @@ body{
    .cssbuttons-io:active {
     transform: scale(0.95);
    }
+   /* @media only screen and (max-width: 768px) {
+    .click{
+      
+    width: 50%;
+    height: 43%;
+    }
+    body{
+        display: inline-block;
+    }
+  }
+   @media only screen and (max-width: 600px) {
+  
+    body{
+        display: flow-root;
+    }
+  }
+  */
    @media only screen and (max-width: 330px) {
             .click
             {
                 width: 70%;
-                height: 50%;
+                height: 49%;
                 
             }
             .logo
@@ -114,4 +133,3 @@ body{
                 text-align: center;
             }
   } 
-   
